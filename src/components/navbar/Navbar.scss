@@ -1,0 +1,135 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 999;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+
+
+        .logo {
+            width: 50%;
+            display: flex;
+            padding: 0px 10px;
+            align-items: center;
+            border: solid 5px red;
+
+
+            .links {
+                display: flex;
+                flex-direction: row;
+                padding: 0px 50px;
+                gap: 25px;
+                cursor: pointer;
+            }
+        }
+
+
+
+
+        .links2 {
+            display: flex;
+            flex-direction: row;
+            padding: 0px 20px;
+            gap: 25px;
+            border: solid 5px blue;
+
+            .box {
+                display: block;
+                padding: 10px;
+                background-color: rgb(97, 96, 96);
+                color: white;
+                cursor: pointer;
+
+                &.white {
+                    display: block;
+                    padding: 10px;
+                    background-color: #f0f0f0;
+                    color: black;
+                }
+            }
+
+            .vertmenu {
+
+
+               display: none;
+               flex-direction: column;
+               align-items: center;
+                background-color: whitesmoke;
+                color: black;
+                height: 100vh;
+                width: 24.1vw;
+                margin-top: 50px;
+                position: absolute;
+
+                &.open {
+                    display: flex;
+                }
+
+                // @if $hamburgerOpen {
+                //     display: flex;
+                // }
+
+
+                .x{
+                    display: flex;
+                    align-items: flex-end;
+                }
+
+                .vertlinks {
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 18px;
+                    gap: 25px;
+                    border: solid 5px black;
+                }
+
+
+                .vertimg {
+                    img {
+                        width: 300px;
+                    }
+                }
+
+
+                .vertlin {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    border: solid 5px black;
+                }
+
+
+                .vertsoc {
+                    display: flex;
+                    width: 100%;
+
+                    .vertlogo {
+                        width: 50%;
+                    }
+
+                    .verticons {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 25px;
+                    }
+                }
+
+            }
+        }
+    }
+}

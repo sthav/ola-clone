@@ -1,0 +1,185 @@
+.sone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    img {
+        width: 100%;
+    }
+
+
+    .maincontainer {
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+            position: absolute;
+            top: 60px;
+            left: 120px;
+        }
+
+        .testcontainer {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 500px;
+            font-size: 40px;
+            color: white;
+
+            button {}
+
+            img {}
+        }
+
+    }
+
+    .specswrapper {
+        width: 100%;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .specscontainer {
+            width: 1200px;
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+
+            .spec1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-size: 36px;
+                gap: 50px;
+
+                .spec1left {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .spec1right {
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
+
+            .spec2 {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+                font-size: 36px;
+                gap: 50px;
+
+                .spec2left {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .spec2right {
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+
+            .spec3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-size: 36px;
+                gap: 50px;
+
+                .spec3left {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .spec3right {
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+
+            .spec4 {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+                font-size: 36px;
+                gap: 50px;
+
+                .spec4left {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .spec4right {
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footerwrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(218, 236, 241);
+
+        .footercontainer {
+            width: 1200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            // align-items: center;
+
+
+
+            .footerleft {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                img {
+                    width: 70px;
+                }
+            }
+
+            .footerright {
+                width: 450px;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+                padding: 5px 20px;
+                background-color: rgb(250, 243, 243);
+            }
+
+
+        }
+
+
+    }
+
+}

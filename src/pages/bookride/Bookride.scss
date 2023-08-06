@@ -1,0 +1,167 @@
+.bookride {
+
+    .bookrideWrapper {
+        width: 100%;
+        display: flex;
+
+        .bookrideleft {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(219, 235, 235);
+            border: solid 5px red;
+            gap: 5px;
+
+            .blue {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 10px 0px;
+                background-color: rgb(70, 123, 223);
+                color: white;
+            }
+
+
+            .ridesNavbar {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                padding: 10px 0px;
+                border: solid 5px yellow;
+            }
+
+            .menu {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                padding: 10px 0px;
+                border: solid 5px blue;
+            }
+
+            .form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                border: solid 5px black;
+
+                .formtext {
+                    background-color: lightgray;
+                    padding: 8px 0px;
+                    border: none;
+
+                }
+            }
+
+            .rides {
+                display: flex;
+                flex-direction: column;
+
+
+                .ridemodes {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+
+
+                    border: solid 5px green;
+
+                    .auto {
+                        display: flex;
+                        gap: 100px;
+
+                        .autoimg {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .autodesc {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .autofair {}
+                    }
+
+                    .mini {
+                        display: flex;
+                        gap: 100px;
+
+                        .miniimg {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .minidesc {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .minifair {}
+
+                    }
+
+
+                    .sedan {
+                        display: flex;
+                        gap: 100px;
+
+                        .sedanimg {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .sedandesc {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .sedanfair {}
+
+                    }
+
+
+
+                    .suv {
+                        display: flex;
+                        gap: 100px;
+
+                        .suvimg {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .suvdesc {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .suvfair {}
+
+                    }
+                }
+            }
+        }
+
+        .bookrideright {
+            width: 60%;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .righttext {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 48%;
+                right: 550px;
+                gap: 20px;
+                color: white;
+            }
+        }
+
+    }
+}
